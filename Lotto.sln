@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj", "{99D95BCB-2E10-4912-B338-1D1956ED8980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto", "Lotto\Lotto.csproj", "{99D95BCB-2E10-4912-B338-1D1956ED8980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorsolas", "Sorsolas\Sorsolas.csproj", "{031D8545-1089-464D-B2DC-16C56B591DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{99D95BCB-2E10-4912-B338-1D1956ED8980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D95BCB-2E10-4912-B338-1D1956ED8980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D95BCB-2E10-4912-B338-1D1956ED8980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031D8545-1089-464D-B2DC-16C56B591DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031D8545-1089-464D-B2DC-16C56B591DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031D8545-1089-464D-B2DC-16C56B591DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031D8545-1089-464D-B2DC-16C56B591DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

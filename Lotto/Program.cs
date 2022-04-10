@@ -10,7 +10,7 @@ namespace Lotto
         static void Main(string[] args)
         {
             SzamokDbContext db = new SzamokDbContext();
-            if (!db.lottoszamok.Any())
+            if (!db.Lottoszamok.Any())
             {
                 string[] fajlsorok = File.ReadAllLines(@"D:\gina\gyakorlások\SkandinavLottoSzamok\SkandinavLottoSzamok.csv").Skip(1).ToArray();
                 
@@ -34,8 +34,8 @@ namespace Lotto
                         string[] gepi = { darabolt[8], darabolt[9], darabolt[10], darabolt[11], darabolt[12], darabolt[13], darabolt[14] };
                         Szamok kezisor = new Szamok(kezi);
                         Szamok gepisor = new Szamok(gepi);
-                        db.lottoszamok.Add(kezisor);
-                        db.lottoszamok.Add(gepisor);
+                        db.Lottoszamok.Add(kezisor);
+                        db.Lottoszamok.Add(gepisor);
                     }
                     catch (ArgumentException e) 
                     {

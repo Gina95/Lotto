@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Lotto.Data
 {
-    class SzamokDbContext : DbContext
+    public class SzamokDbContext : DbContext
     {
-        public DbSet<Szamok> lottoszamok { get; set; }
+        public DbSet<Szamok> Lottoszamok { get; set; }
         public SzamokDbContext()
         {
         }

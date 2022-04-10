@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Lotto
 {
-    class Szamok
+    public class Szamok
 
     {
-        private string item;
-
         public Szamok()
         {
         }
@@ -60,6 +58,17 @@ namespace Lotto
             {
                 throw new ArgumentException("hibas sor");
             }
+        }
+
+        public Szamok(HashSet<int> gerenraltSzamok)
+        {
+            Szam1 = gerenraltSzamok.ElementAt(0);
+            Szam2 = gerenraltSzamok.ElementAt(1);
+            Szam3 = gerenraltSzamok.ElementAt(2);
+            Szam4 = gerenraltSzamok.ElementAt(3);
+            Szam5 = gerenraltSzamok.ElementAt(4);
+            Szam6 = gerenraltSzamok.ElementAt(5);
+            Szam7 = gerenraltSzamok.ElementAt(6);
         }
 
         public int Id { get; set; }
